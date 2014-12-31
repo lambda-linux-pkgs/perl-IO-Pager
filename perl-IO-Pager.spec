@@ -19,6 +19,9 @@ Requires:       perl(Test::More)
 Requires:       perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $version))
 
 %description
+For package support, please visit
+https://github.com/lambda-linux-pkgs/%{name}/issues
+
 IO::Pager can be used to locate an available pager and set the PAGER
 environment variable (see "NOTES"). It is also a factory for creating I/O
 objects such as IO::Pager::Buffered and IO::Pager::Unbuffered.
