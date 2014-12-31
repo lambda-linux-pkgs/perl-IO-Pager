@@ -1,14 +1,15 @@
 Name:           perl-IO-Pager
-Version:        0.24
+Version:        0.31
 Release:        1%{?dist}
 Summary:        Select a pager and pipe text to it if destination is a TTY
-License:        CHECK(Distributable)
+License:        GPL+ or Artistic
 Group:          Development/Libraries
 URL:            http://search.cpan.org/dist/IO-Pager/
 Source0:        http://cpan.metacpan.org//authors/id/J/JP/JPIERCE/IO-Pager-%{version}.tgz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch:      noarch
 BuildRequires:  perl(Config)
+BuildRequires:  perl(Env)
 BuildRequires:  perl(ExtUtils::MakeMaker)
 BuildRequires:  perl(File::Which)
 BuildRequires:  perl(Test::More)
