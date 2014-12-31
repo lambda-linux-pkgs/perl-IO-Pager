@@ -1,6 +1,8 @@
+%define _buildid .2
+
 Name:           perl-IO-Pager
 Version:        0.31
-Release:        1%{?dist}
+Release:        1%{?_buildid}%{?dist}
 Summary:        Select a pager and pipe text to it if destination is a TTY
 License:        GPL+ or Artistic
 Group:          Development/Libraries
